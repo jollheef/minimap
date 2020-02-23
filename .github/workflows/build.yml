@@ -1,0 +1,14 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: "Build Minimap apk"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+
+    - uses: vgaidarji/android-github-actions-build@v1.0.1
+      with:
+        args: "./gradlew build"
