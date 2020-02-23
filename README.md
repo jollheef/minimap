@@ -1,3 +1,4 @@
+![GitHub Actions](https://github.com/jollheef/minimap/workflows/Build/badge.svg)
 [![Donate](https://img.shields.io/badge/donate-paypal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R8W2UQPZ5X5JE&source=url)
 [![Donate](https://img.shields.io/badge/donate-bitcoin-green.svg)](https://blockchair.com/bitcoin/address/bc1q23fyuq7kmngrgqgp6yq9hk8a5q460f39m8nv87)
 
