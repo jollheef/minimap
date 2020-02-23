@@ -12,3 +12,13 @@ jobs:
     - uses: vgaidarji/android-github-actions-build@v1.0.1
       with:
         args: "./gradlew build"
+
+    - uses: actions/upload-artifact@v1
+      with:
+        name: minimap-debug
+        path: ./app/build/outputs/apk/debug/app-debug.apk
+
+    - uses: actions/upload-artifact@v1
+      with:
+        name: minimap-release-unsigned
+        path: ./app/build/outputs/apk/release/app-release-unsigned.apk
